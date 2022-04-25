@@ -1,0 +1,74 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #374151;
+}
+
+h2{
+    color: white;
+    font-weight: 700;
+    font-size: 42px;
+    margin-left: 2%;
+}
+
+.greenText {
+    color: #05c085;
+    margin-left: 6%;
+    font-style: italic;
+}
+
+.never {
+    color: white;
+    font-size: 20px;
+    margin-left: 2%;
+}
+
+.bottomBorder{
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid #059669;
+}
+
+
+.colorText{
+    color: #05c085 ;
+}
+/*Generate button style*/
+#generate{
+    color: antiquewhite;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #273549;
+    border-radius: 6px;
+    border: none;
+    padding: 6px 40px;
+    transition-duration: 0.2s;
+    margin-left: 2%;
+}
+
+#generate:hover {
+    background-color: #059669;
+    color: white;
+}
+
+/*Button Mapping*/
+#pass, #pass1, #pass2, #pass3 {
+    border: none;
+    border-radius: 4px;
+    background-color: #273549;
+    color: white;
+    padding: 6px 40px;
+    
+}
+
+.column1 {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.column2 {
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+/* #pass1 {
+    margin: 2%;
+} */
