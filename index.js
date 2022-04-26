@@ -4,18 +4,19 @@
 //set the password length(extra)
 //1 click copy(think of copy this code sections)*extra
 
-let characters = ["abcdefghijklmnopqrstuvwxyz{|}~"]
+
 let password = document.getElementById("pass")
 
-function generate(){
-    
-    
-    
-    for(let i = 0; i < length; i ++){
-        characters = (Math.random().toString(16).substring(2,length))
-        password.value = characters
+function generateP(){
+    let characters = "abcdefghijklmnopqrstuvwxyz{|}~" + "?0123456789"
+    let passw = ' '
+    for(let i = 0; i <= 8; i ++){
+        let char = Math.floor(Math.random() * characters.length + 1)
+        passw += characters.charAt(char)
     }
-    
-    
+    return passw
 }
 
+function passRun(){
+     password.value = generateP()
+}
