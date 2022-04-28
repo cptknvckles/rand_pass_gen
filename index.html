@@ -15,15 +15,19 @@
     <inner-column>
         <h2>Generate a <br> <div class="greenText">random password</div></h2>
         <p class="never">Never use an insecure password again</p>
-        <button id="generate" onclick="passRun()"><i class="fa-solid fa-bolt "></i> Generate passwords</button>
+        <div id="buttonGrouping"><!--might not need this div -->
+            <button id="generate" onclick="passRun8()"><i class="fa-solid fa-fingerprint"></i> Generate 8 Digit Password</button>
+            <button id="generate" onclick="passRun12()" value="12"><i class="fa-solid fa-fingerprint"></i> Generate 12 Digit Password</button>
+            <button id="generate" onclick="passRun16()" value="16"><i class="fa-solid fa-fingerprint"></i> Generate 16 Digit Password</button>
+        </div>
         <p class="bottomBorder"></p>
         <div id="container">
             <div class="column1">
-                <input type="text" id="pass" size="10" placeholder="Password">
-                <input type="text" id="pass1" size="10" placeholder="Password">
+                <input type="text" id="pass" size="15" placeholder="Password">
+                <input type="text" id="pass1" size="15" placeholder="Password">
             <div class="column2">
-                <input type="text" id="pass2" size="10" placeholder="Password">
-                <input type="text" id="pass3" size="10" placeholder="Password">
+                <input type="text" id="pass2" size="15" placeholder="Password">
+                <input type="text" id="pass3" size="15" placeholder="Password">
             </div>
         </div>
 

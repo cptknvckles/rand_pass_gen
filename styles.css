@@ -1,6 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #1F2937;
+    background-color: #142215;
+
 }
 
 h2{
@@ -44,11 +45,25 @@ h2{
     padding: 10px 40px;
     transition-duration: 0.2s;
     margin-left: 2%;
+    margin-bottom: 2%;
 }
-
+/*Copy button*/
+#copy{
+    margin-top: 4%;
+}
 #generate:hover {
     background-color: #059669;
     color: white;
+}
+/*Button mapping */
+
+#buttonGrouping{
+    margin-right: 2%;
+}
+
+#generate12 {
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 /*Button Mapping*/
@@ -57,9 +72,12 @@ h2{
     border-radius: 4px;
     background-color: #273549;
     color: white;
-    padding: 10px 40px;
-    margin-right: 2%;
+    padding: 10px 70px;
+    margin-right: 1%;
     margin-bottom: 2%;
+    text-align: left;
+    width: fit-content;
+    height: fit-content;
     
 }
 
