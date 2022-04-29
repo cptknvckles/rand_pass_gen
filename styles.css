@@ -1,10 +1,9 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #142215;
-
+    background-color: #343061;
 }
 
-h2{
+h2, h1{
     color: white;
     font-weight: 700;
     font-size: 42px;
@@ -16,6 +15,11 @@ h2{
     margin-left: 6%;
     font-style: italic;
 }
+
+/* .newName {
+    color: #c27193;
+    font-style: italic;
+} */
 
 .never {
     color: white;
@@ -39,7 +43,7 @@ h2{
     font-size: large;
     font-weight: 600;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #273549;
+    background-color: #6e4b74;
     border-radius: 6px;
     border: none;
     padding: 10px 40px;
@@ -48,11 +52,12 @@ h2{
     margin-bottom: 2%;
 }
 /*Copy button*/
-#copy{
+/* #copy{
     margin-top: 4%;
-}
+} */
+
 #generate:hover {
-    background-color: #059669;
+    background-color: #c27193;
     color: white;
 }
 /*Button mapping */
@@ -67,10 +72,12 @@ h2{
 }
 
 /*Button Mapping*/
+
+
 #pass, #pass1, #pass2, #pass3 {
     border: none;
     border-radius: 4px;
-    background-color: #273549;
+    background-color: #6e4b74;
     color: white;
     padding: 10px 70px;
     margin-right: 1%;

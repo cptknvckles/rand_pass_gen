@@ -14,6 +14,7 @@ let password = document.getElementById("pass")
 let password1 = document.getElementById("pass1")
 let password2 = document.getElementById("pass2")
 let password3 = document.getElementById("pass3")
+let name = document.getElementById
 
 
 function generate8(){
