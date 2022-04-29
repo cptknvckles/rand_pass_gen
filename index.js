@@ -69,3 +69,5 @@ function passRun16(){
     password2.value = generate16()
     password3.value = generate16()
 }
+
+function reload(){location.reload()}

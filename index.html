@@ -13,26 +13,27 @@
 </head>
 <body>
     <inner-column>
-        <h2>Generate a <br> <div class="greenText">random password</div></h2>
+        <h2><div class="header">Generate a </div><br> <div class="greenText">random password</div></h2>
         <p class="never">Never use an insecure password again</p>
         <div id="buttonGrouping"><!--might not need this div -->
             <button id="generate" onclick="passRun8()"><i class="fa-solid fa-fingerprint"></i> Generate 8 Digit Password</button>
             <button id="generate" onclick="passRun12()" value="12"><i class="fa-solid fa-fingerprint"></i> Generate 12 Digit Password</button>
             <button id="generate" onclick="passRun16()" value="16"><i class="fa-solid fa-fingerprint"></i> Generate 16 Digit Password</button>
         </div>
-        <p class="bottomBorder"></p>
+        <p class="bottomBorder1"></p>
         <div id="container">
             <div class="column1">
-                <input type="text" id="pass" size="15" placeholder="Password">
-                <input type="text" id="pass1" size="15" placeholder="Password">
+                <input type="text" id="pass" size="15" placeholder="Password" readonly>
+                <input type="text" id="pass1" size="15" placeholder="Password" readonly>
             <div class="column2">
-                <input type="text" id="pass2" size="15" placeholder="Password">
-                <input type="text" id="pass3" size="15" placeholder="Password">
+                <input type="text" id="pass2" size="15" placeholder="Password" readonly>
+                <input type="text" id="pass3" size="15" placeholder="Password" readonly>
             </div>
         </div>
-        <p class="bottomBorder"></p>
+        <p class="bottomBorder2"></p>
+        <button class="reload" onclick="reload()">See the animation again?</button>
         <!-- <h1>Need a random username?<div class="newName">Generate a new name right here</div></h1>
-        eh i might never finish this seems to much
+        eh i might never finish this seems to much-->
 
 
 
